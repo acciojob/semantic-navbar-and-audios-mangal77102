@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Navbar and Audio Section</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-<h1>3 random audios</h1>
-	<nav>
-		<ul>
-			<li><a href="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" target="_blank">URL 1</a></li>
-			<li><a href="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" target="_blank">URL 2</a></li>
-			<li><a href="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" target="_blank">URL 3</a></li>
-		</ul>
-	</nav>
-</body>
 
+    <!-- Part 1: Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Part 2: Audio Section -->
+    <section>
+        <h2>3 random audios</h2>
+
+        <audio controls>
+            <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
+        </audio>
+
+        <br><br>
+
+        <audio controls>
+            <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+        </audio>
+
+        <br><br>
+
+        <audio controls>
+            <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+</body>
 </html>
